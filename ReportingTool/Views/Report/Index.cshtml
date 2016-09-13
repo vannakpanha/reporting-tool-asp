@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Sale Summary";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col-lg-12">
+    <h2 class="page-header"><i class='fa fa-bar-chart-o fa-fw'></i> Sale Summary</h2>
+</div>
+<!-- /.col-lg-12 -->
+<div class="col-lg-12">
+    <div ng-app="ngApp" ng-controller="ctrl">
+        <h4 class="text-primary">Sale Summary</h4>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="box">
+                    <input type="text" value="" placeholder="From Date" id="fromdate" name="fromdate" ng-model="formDate" ng-change="search()" />
+                    <input type="text" value="" placeholder="To Date" id="todate" name="todate" ng-model="toDate" ng-change="search()" />
+                    <input type="text" value="" placeholder="Customer Name" id="customer" name="customer" ng-keyup="search()" />
+                    <input type="text" value="" placeholder="Employee Name" id="user" name="user" ng-keyup="search()" />
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="tbl">
+                <thead>
+                    <tr>
+                        <th>Invoice</th>
+                        <th>Date</th>
+                        <th>Customer</th>
+                        <th>Employee</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="s in saleSummary track by $index">
+                        <td>{{s.Invoice}}</td>
+                        <td>{{s.Date}}</td>
+                        <td>{{s.CustomerName}}</td>
+                        <td>{{s.StaffName}}</td>
+                        <td>$ {{s.Total}}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="text-right"><b>Grand Total</b></td>
+                        <td><b class="text-danger">$ {{total.toFixed(2)}}</b></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
+    <script src="~/scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/jquery-ui.min.js"></script>
+    <script src="~/scripts/angular.min.js"></script>
+    <script>
+        window.onload = function () {
+            $(".nav>li>a#link1").addClass("current");
+        }
+        $(function () {
+            $("#fromdate").datepicker();
+            $("#todate").datepicker();
+        });
+    </script>
+    <script src="~/scripts/appjs/sale-summary.js"></script>
+
+

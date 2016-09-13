@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>@ViewBag.Title | Reporting Tool</title>
+    <link rel="icon" href="~/Content/img/icon.png" />
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui.min.css" rel="stylesheet" />
+    <!-- MetisMenu CSS -->
+    <link href="~/Content/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/Content/dist/css/sb-admin-2.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Content/bootstrap.min.js"></script>
+    <script>
+         var burl = '@Url.Content("~")';
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-top navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button style="border:1px solid #EEE !important;" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span style="background:#EEE !important;" class="sr-only">Toggle navigation</span>
+                    <span style="background:#EEE !important;" class="icon-bar"></span>
+                    <span style="background:#EEE !important;" class="icon-bar"></span>
+                    <span style="background:#EEE !important;" class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand text-white" href="index.html">Reporting Tool</a>
+            </div>
+            <!-- /.navbar-header -->
+            <ul class="nav navbar-top-links navbar-right pull-right">
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle text-white" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> @Session["username"] <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li>
+                            <a href="~/Home/Signout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="~/Report" id="link1"><i class="fa fa-bar-chart-o fa-fw"></i> Sale Summary</a>
+                        </li>
+                        <li>
+                            <a href="~/Report/SaleByProduct" id="link2"><i class="fa fa-wpforms fa-fw"></i> Sale By Product</a>
+                        </li>
+                        <li>
+                            <a href="~/Report/StockBalance" id="link3"><i class="fa fa-bank fa-fw"></i> Stock Balance</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <div id="page-wrapper">
+            <div class="row">
+                    @RenderBody()
+            </div>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="~/Content/metisMenu/metisMenu.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="~/Content/dist/js/sb-admin-2.js"></script>
+</body>
+</html>

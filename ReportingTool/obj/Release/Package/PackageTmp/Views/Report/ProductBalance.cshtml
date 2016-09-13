@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Stock Balance";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div ng-app="ngApp" ng-controller="ctrl">
+    <h4 class="text-primary">Stock Balance</h4>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="box">
+                <input type="text" value="" placeholder="Product" id="product" name="product" ng-keyup="search()" />
+                <input type="text" value="" placeholder="Category" id="category" name="category" ng-keyup="search()" />
+            </div>
+        </div>
+    </div>
+    <table class="tbl">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Unit</th>
+                <th>Quantity</th>
+                <th>Cost</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="b in balance track by $index">
+                <td>{{$index+1}}</td>
+                <td>{{b.ProductName}}</td>
+                <td>{{b.Category}}</td>
+                <td>{{b.Unit}}</td>
+                <td>{{b.Qty}}</td>
+                <td>{{b.AVGCost}}</td>
+                <td>{{b.Total}}</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="text-right"><b>Total Qty</b></td>
+                <td><b class="text-danger">{{totalQty}}</b></td>
+                <td class="text-right"><b>Grand Total</b></td>
+                <td><b class="text-danger">$ {{total.toFixed(2)}}</b></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script src="~/scripts/jquery-1.12.4.min.js"></script>
+<script>
+    window.onload = function () {
+        $(".nav>li>a#link3").addClass("current");
+    }
+</script>
+
+<script src="~/scripts/bootstrap.min.js"></script>
+<script src="~/scripts/angular.min.js"></script>
+<script src="~/scripts/appjs/stock-balance.js"></script>
+

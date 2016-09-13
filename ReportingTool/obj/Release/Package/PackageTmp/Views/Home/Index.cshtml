@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta charset="utf-8" />
+    <title>User Login</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+</head>
+<body ng-app="ngApp" ng-controller="loginCtrl">
+    <nav class="navbar navbar-top navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <a class="navbar-brand text-white" href="~/">
+                    Reporting Tool
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 45px">
+        <div class="row">
+            <div class="col-sm-12">
+                &nbsp;
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <h2 class="text-primary">User Login</h2>
+                <hr />
+                <form name="frm" id="frm" method="post" ng-submit="login()">
+                    <div class="form-group col-sm-8">
+                        <label class="control-label" for="username">User Name</label>
+                        <input type="text" required autofocus value="" id="username" name="username" class="form-control" />
+                    </div>
+                    <div class="form-group col-sm-8">
+                        <label class="control-label" for="password">Password</label>
+                        <input type="password" value="" id="password" name="passwrod" required class="form-control" />
+                    </div>
+                    <div class="form-group col-sm-8">
+                        <button class="btn btn-primary btn-sm" type="submit">Login</button>
+                        <button class="btn btn-danger btn-sm" type="reset">Cancel</button>
+                    </div>
+                    <div class="form-group col-sm-8">
+                        <p class="text-danger" id="sms"></p>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+    <script src="~/scripts/jquery-1.12.4.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/angular.min.js"></script>
+    <script>
+        var burl = '@Url.Content("~")';
+        var ngApp = angular.module('ngApp', []);
+        ngApp.controller('loginCtrl', function ($scope, $http) {
+            $scope.login = function () {
+                // get username and password from input box
+                var username = $("#username").val();
+                var pass = $("#password").val();
+                // set loading image 
+                var imgUrl = burl + "Content/img/ajax-loader.gif";
+                $("#sms").html("<img src='" + imgUrl + "' />");
+                $http({
+                    method: 'POST',
+                    url: burl + "Home/DoLogin",
+                    data: $.param({
+                        "username": username,
+                        "pass": pass
+                    }),
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+                }).success(function (data) {
+                    if (data == 'yes') {
+                        location.href = burl +"Report";
+                    }
+                    else {
+                        $("#sms").html("Invalid username or pasword!");
+                    }
+                });
+            };
+        });
+    </script>
+</body>
+</html>

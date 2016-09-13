@@ -1,0 +1,93 @@
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\ApplicationInsights.config
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\csc.exe
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\vbc.exe
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\ReportingTool.dll.config
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\ReportingTool.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\ReportingTool.pdb
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.Web.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Newtonsoft.Json.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Helpers.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Mvc.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Razor.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Webpages.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Webpages.Razor.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.Web.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\Newtonsoft.Json.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Razor.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Webpages.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Webpages.Razor.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Helpers.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\bin\System.Web.Mvc.xml
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\obj\Debug\ReportingTool.dll
+C:\Users\Vongkol\Desktop\ReportingTool\ReportingTool\obj\Debug\ReportingTool.pdb
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\ApplicationInsights.config
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\csc.exe
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\System.Collections.Immutable.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\System.Reflection.Metadata.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\vbc.exe
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\VBCSCompiler.exe
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\roslyn\VBCSCompiler.exe.config
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\ReportingTool.dll.config
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\ReportingTool.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\ReportingTool.pdb
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.DependencyCollector.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.Web.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.WindowsServer.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.ApplicationInsights.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Newtonsoft.Json.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Helpers.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Mvc.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Razor.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Webpages.Deployment.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Webpages.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Webpages.Razor.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.DependencyCollector.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.Web.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.AI.WindowsServer.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.ApplicationInsights.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\Newtonsoft.Json.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Razor.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Webpages.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Webpages.Deployment.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Webpages.Razor.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Helpers.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\bin\System.Web.Mvc.xml
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\obj\Debug\ReportingTool.dll
+D:\Panha\Sopheak Data\ReportingTool\ReportingTool\obj\Debug\ReportingTool.pdb
